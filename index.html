@@ -23,29 +23,29 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <!-- <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#">Monmouth Rambling and Hillwalking Club</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button> -->
+      </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <!-- <li class="nav-item active">
             <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
             </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About Our Walks</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Our Walks</a>
+            <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Diary</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#faq">FAQs</a>
           </li>
         </ul>
       </div>
@@ -67,8 +67,7 @@
 
   <!-- Page Content -->
   <div class="container">
-
-    <div class="row">
+    <div class="row" id="contact">
       <div class="col-sm-8">
         <h2 class="mt-4">Do you enjoy a walk in the countryside?</h2>
         <p>Would you like to join a friendly local group for walking and the occasional social event?</p>
@@ -78,8 +77,9 @@
         <p>Our walks vary in length from around 6 to 8 miles with a break for coffee and lunch along the way.</p>
         <p>We extend a warm welcome to newcomers who may join us for up to three "taster" walks before joining the club. We
           charge a small annual subscription to cover admin and insurance costs.</p>
+        <p>To join us, please complete this form and give it to a committee member on the next walk along with your subscription</p>
         <p>
-          <a class="btn btn-primary btn-lg" href="#">Join us &raquo;</a>
+          <a class="btn btn-primary btn-lg" href="/assets/MR&HWC membership form.doc">Membership Form &raquo;</a>
         </p>
       </div>
       <div class="col-sm-4">
@@ -97,7 +97,10 @@
       </div>
     </div>
     <!-- /.row -->
+  </div>
+  <!-- /.container -->
 
+  <div class="container-fluid" id="about">
     <div class="row">
       <div class="col-sm-4 my-4">
         <div class="card">
@@ -111,19 +114,14 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-4 my-4">
-        <div class="card">
-          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-          <div class="card-body">
-            <h4 class="card-title">Diary</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus
-              totam ut praesentium aut.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Find Out More!</a>
-          </div>
-        </div>
-      </div>
+
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+
+  <div class="container" id="gallery">
+    <div class="row">
       <div class="col-sm-4 my-4">
         <div class="card">
           <img class="card-img-top" src="http://placehold.it/300x200" alt="">
@@ -139,14 +137,34 @@
 
     </div>
     <!-- /.row -->
+  </div>
+  <!-- /.container -->
 
+
+  <div class="container" id="faq">
+    <div class="row">
+      <div class="col-sm-4 my-4">
+        <div class="card">
+          <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+          <div class="card-body">
+            <h4 class="card-title">FAQs</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus
+              totam ut praesentium aut.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Monmouth Rambling and Hillwalking Club 2018</p>
     </div>
     <!-- /.container -->
   </footer>
@@ -154,6 +172,12 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scroll.js"></script>
 
 </body>
 
