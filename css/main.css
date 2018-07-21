@@ -36,6 +36,7 @@ body {
   height: 100%;
   background: rgba(0, 0, 0, 0.33);
 }
+
 .header h1,
 .header h3 {
   text-transform: uppercase;
@@ -43,4 +44,40 @@ body {
 
 .card {
   height: 100%;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel-item {
+  height: 25vh;
+  min-height: 300px;
+  /* width: 100%; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.carousel-item:nth-child(1) {
+  background: url("/images/scene-2.jpg") center center no-repeat scroll;
+}
+.carousel-item:nth-child(2) {
+  background: url("/images/scene-4.jpg") center center no-repeat scroll;
+}
+.carousel-item:nth-child(3) {
+  background: url("/images/scene.jpg") center center no-repeat scroll;
+}
+.carousel-item:nth-child(4) {
+  background: url("/images/waterfall.jpg") center center no-repeat scroll;
+}
+.carousel-item:nth-child(5) {
+  background: url("/images/group.jpg") center center no-repeat scroll;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  background: #a0372d;
+  opacity: 0.2;
 }
