@@ -35,8 +35,13 @@ section {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: bottom left;
   font-family: "Dosis", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .header {
+    background-position: bottom left;
+  }
 }
 
 .header .background-mask {
