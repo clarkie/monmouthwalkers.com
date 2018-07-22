@@ -21,6 +21,7 @@
   <title>Monmouth Rambling and Hillwalking Club</title>
 
   <!-- Bootstrap core CSS -->
+  <link href="https://fonts.googleapis.com/css?family=Dosis|PT+Sans" rel="stylesheet">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
@@ -28,23 +29,20 @@
 
 </head>
 
-<body>
+<body id="top">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Monmouth Rambling and Hillwalking Club</a>
+      <a class="navbar-brand js-scroll-trigger" href="#top">
+        <img src="/images/welsh_dragon-simple.svg" />
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <!-- <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Join</a>
           </li>
@@ -68,8 +66,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1 class="display-3 text-center text-white mt-4">Monmouth</h1>
-          <h3 class="text-center text-white mt-4">Rambling and Hillwalking Club</h3>
+          <h1 class="display-3 text-center text-white mt-4 mb-0">Monmouth</h1>
+          <h3 class="text-center text-white mt-0">Rambling and Hillwalking Club</h3>
         </div>
       </div>
     </div>
@@ -112,11 +110,13 @@
 
   <section class="container" id="about">
     <div class="row">
-      <h2>About Our Walks</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <div class="col-12">
+        <h2>About Our Walks</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+          sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
     </div>
     <!-- /.row -->
   </section>
@@ -124,25 +124,27 @@
 
   <section class="container" id="gallery">
     <div class="row">
-      <h2>Gallery</h2>
-      <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
+      <div class="col-12">
+        <h2>Gallery</h2>
+        <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
 
-        <div class="carousel-inner">
-          <div class="carousel-item active"> </div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"> </div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+            <div class="carousel-item"></div>
+          </div>
+
+          <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-
-        <a class="carousel-control-prev" href="#galleryCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#galleryCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
     </div>
     <!-- /.row -->
@@ -152,39 +154,42 @@
 
   <section class="container" id="faq">
     <div class="row">
-      <h2>FAQs</h2>
-      <h5 class="w-100">Can I try a walk?</h5>
-      <p>New members may try up to 3 walks before joining the club. Contact us for details of upcoming walks.</p>
+      <div class="col-12">
+        <h2>FAQs</h2>
+        <h5 class="w-100">Can I try a walk?</h5>
+        <p>New members may try up to 3 walks before joining the club. Contact us for details of upcoming walks.</p>
 
-      <h5 class="w-100">Where can I meet for a walk?</h5>
-      <p>We meet every Sunday morning at Glendower Street car park in Monmouth and leave there around 9.30, exact departure
-        time depending on how far it is to the start of the walk.</p>
+        <h5 class="w-100">Where can I meet for a walk?</h5>
+        <p>We meet every Sunday morning at Glendower Street car park in Monmouth and leave there around 9.30, exact departure
+          time depending on how far it is to the start of the walk.</p>
 
-      <h5 class="w-100">Do I need special equipment/gear?</h5>
-      <p>We strongly recommend you wear good walking boots and have a waterproof jacket and overtrousers. Some walkers like
-        to use walking poles to take the weight off their joints and assist with balance over rough terrain. In addition,
-        a rucksack for carrying food, water and any other item required.</p>
+        <h5 class="w-100">Do I need special equipment/gear?</h5>
+        <p>We strongly recommend you wear good walking boots and have a waterproof jacket and overtrousers. Some walkers like
+          to use walking poles to take the weight off their joints and assist with balance over rough terrain. In addition,
+          a rucksack for carrying food, water and any other item required.</p>
 
-      <h5 class="w-100">Do I need to bring sandwiches and a drink?</h5>
-      <p>Yes. Our walks usually include a short coffee stop mid-morning and a picnic stop for lunch. If there is a convenient
-        pub at the end of a walk, members may wish to have a drink before going home.</p>
+        <h5 class="w-100">Do I need to bring sandwiches and a drink?</h5>
+        <p>Yes. Our walks usually include a short coffee stop mid-morning and a picnic stop for lunch. If there is a convenient
+          pub at the end of a walk, members may wish to have a drink before going home.</p>
 
-      <h5 class="w-100">Can I share transport?</h5>
-      <p>We encourage our members to share lifts to minimise environmental impact. Passengers contribute around 10p per mile
-        to the driver towards travel costs.</p>
+        <h5 class="w-100">Can I share transport?</h5>
+        <p>We encourage our members to share lifts to minimise environmental impact. Passengers contribute around 10p per mile
+          to the driver towards travel costs.</p>
 
-      <h5 class="w-100">How do I join the club?</h5>
-      <p>Contact the Membership Secretary (see contact us page) for an application form. There is an annual subscription fee,
-        currently £8, or pro rata for part year.</p>
+        <h5 class="w-100">How do I join the club?</h5>
+        <p>Contact the Membership Secretary (see contact us page) for an application form. There is an annual subscription fee,
+          currently £8, or pro rata for part year.</p>
 
-      <h5 class="w-100">What about insurance?</h5>
-      <p>Whilst the club has Public Liability insurance covering damage or injury that any member of the Club may cause to a
-        third party or property, the committee and walk leaders cannot accept responsibility for` any loss or injury suffered
-        by anyone participating in our walks. Participation in our walks is entirely at the risk of the member or guest.</p>
+        <h5 class="w-100">What about insurance?</h5>
+        <p>Whilst the club has Public Liability insurance covering damage or injury that any member of the Club may cause to
+          a third party or property, the committee and walk leaders cannot accept responsibility for` any loss or injury
+          suffered by anyone participating in our walks. Participation in our walks is entirely at the risk of the member
+          or guest.</p>
 
-      <h5 class="w-100">How far do you walk?</h5>
-      <p>Our walk programme includes walks varying in length from around 6 to 8 miles but once a month miles we include a longer
-        walk of 9-10 miles.</p>
+        <h5 class="w-100">How far do you walk?</h5>
+        <p>Our walk programme includes walks varying in length from around 6 to 8 miles but once a month miles we include a
+          longer walk of 9-10 miles.</p>
+      </div>
     </div>
     <!-- /.row -->
   </section>
