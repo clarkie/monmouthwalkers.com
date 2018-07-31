@@ -49,6 +49,17 @@
   <!-- Custom styles for this template -->
   <link href="css/main.css" rel="stylesheet">
 
+  <div id="fb-root"></div>
+  <script>
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=2125053681069339&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 </head>
 
 <body id="top">
@@ -95,7 +106,7 @@
   <!-- Page Content -->
   <section class="container">
     <div class="row" id="contact">
-      <div class="col-sm-8">
+      <div class="col-md-6">
         <h2 class="mt-4">Do you enjoy a walk in the countryside?</h2>
         <p>Would you like to join a friendly local group for walking and the occasional social event?</p>
 
@@ -109,7 +120,12 @@
           <a class="btn btn-primary btn-lg" href="/assets/MR&HWC membership form.doc">Membership Form &raquo;</a>
         </p>
       </div>
-      <div class="col-sm-4">
+
+
+      <div class="fb-group col-sm-12 col-md-6 mt-4" data-href="https://www.facebook.com/groups/1827521370900504/" data-show-social-context="true"
+        data-show-metadata="true"></div>
+
+      <div class="col-sm-12">
         <h2 class="mt-4">Contact Us</h2>
         <address>
           <strong>Tom Clarke:</strong>
