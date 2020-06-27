@@ -1,264 +1,420 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-47073255-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47073255-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-47073255-2");
+    </script>
 
-    gtag('config', 'UA-47073255-2');
-  </script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside."
+    />
+    <meta name="author" content="" />
 
+    <title>Monmouth Rambling and Hillwalking Club</title>
 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside.">
-  <meta name="author" content="">
+    <meta
+      property="og:title"
+      content="Monmouth Rambling and Hillwalking Club"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside."
+    />
+    <meta
+      property="og:image"
+      content="https://monmouthwalkers.com/images/pen-y-crug.jpg"
+    />
+    <meta property="og:url" content="https://monmouthwalkers.com/" />
 
-  <title>Monmouth Rambling and Hillwalking Club</title>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="https://monmouthwalkers.com/" />
+    <meta
+      name="twitter:title"
+      content="Monmouth Rambling and Hillwalking Club"
+    />
+    <meta
+      name="twitter:description"
+      content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside."
+    />
+    <meta
+      name="twitter:image"
+      content="https://monmouthwalkers.com/images/pen-y-crug.jpg"
+    />
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/site.webmanifest">
-  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis|PT+Sans"
+      rel="stylesheet"
+    />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/lightbox/ekko-lightbox.css" rel="stylesheet" />
 
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet" />
 
-  <meta property="og:title" content="Monmouth Rambling and Hillwalking Club">
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside.">
-  <meta property="og:image" content="https://monmouthwalkers.com/images/pen-y-crug.jpg">
-  <meta property="og:url" content="https://monmouthwalkers.com/">
+    <div id="fb-root"></div>
+    <script>
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src =
+          "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=2125053681069339&autoLogAppEvents=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+  </head>
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="https://monmouthwalkers.com/">
-  <meta name="twitter:title" content="Monmouth Rambling and Hillwalking Club">
-  <meta name="twitter:description" content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside.">
-  <meta name="twitter:image" content="https://monmouthwalkers.com/images/pen-y-crug.jpg">
-
-  <!-- Bootstrap core CSS -->
-  <link href="https://fonts.googleapis.com/css?family=Dosis|PT+Sans" rel="stylesheet">
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="vendor/lightbox/ekko-lightbox.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/main.css" rel="stylesheet">
-
-  <div id="fb-root"></div>
-  <script>
-    (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=2125053681069339&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-  </script>
-
-</head>
-
-<body id="top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#top">
-        <img src="/images/welsh_dragon-simple.svg" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Join</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#faq">FAQs</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Header with Background Image -->
-  <header class="header">
-    <div class="background-mask" />
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 class="display-3 text-center text-white mt-4 mb-0">Monmouth</h1>
-          <h3 class="text-center text-white mt-0">Rambling and Hillwalking Club</h3>
+  <body id="top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#top">
+          <img src="/images/welsh_dragon-simple.svg" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQs</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </header>
+    </nav>
 
-  <!-- Page Content -->
-  <section class="container">
-    <div class="row" id="contact">
-      <div class="col-md-6">
-        <h2 class="mt-4">Do you enjoy a walk in the countryside?</h2>
-        <p>Would you like to join a friendly local group for walking and the occasional social event?</p>
-
-        <p>Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday
-          in our beautiful local countryside.</p>
-        <p>Our walks vary in length from around 6 to 8 miles with a break for coffee and lunch along the way.</p>
-        <p>We extend a warm welcome to newcomers who may join us for up to three "taster" walks before joining the club.
-          We charge a small annual subscription to cover admin and insurance costs.</p>
-        <p>To join us, please complete this form and give it to a committee member on the next walk along with your subscription</p>
-        <p>
-          <a class="btn btn-primary btn-lg" href="/assets/MR&HWC membership form.doc">Membership Form &raquo;</a>
-        </p>
+    <!-- Header with Background Image -->
+    <header class="header">
+      <div class="background-mask" />
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="display-3 text-center text-white mt-4 mb-0">Monmouth</h1>
+            <h3 class="text-center text-white mt-0">
+              Rambling and Hillwalking Club
+            </h3>
+          </div>
+        </div>
       </div>
+    </header>
 
+    <!-- Page Content -->
+    <section class="container">
+      <div class="row" id="contact">
+        <div class="col-md-6">
+          <h2 class="mt-4">Do you enjoy a walk in the countryside?</h2>
+          <p>
+            Would you like to join a friendly local group for walking and the
+            occasional social event?
+          </p>
 
-      <div class="fb-group col-sm-12 col-md-6 mt-4" data-href="https://www.facebook.com/groups/1827521370900504/" data-show-social-context="true"
-        data-show-metadata="true"></div>
+          <p>
+            Monmouth Rambling and Hillwalking Club is a long established walking
+            club based in Monmouth. We walk every Sunday in our beautiful local
+            countryside.
+          </p>
+          <p>
+            Our walks vary in length from around 6 to 8 miles with a break for
+            coffee and lunch along the way.
+          </p>
+          <p>
+            We extend a warm welcome to newcomers who may join us for up to
+            three "taster" walks before joining the club. We charge a small
+            annual subscription to cover admin and insurance costs.
+          </p>
+          <p>
+            To join us, please complete this form and give it to a committee
+            member on the next walk along with your subscription
+          </p>
+          <p>
+            <a
+              class="btn btn-primary btn-lg"
+              href="/assets/MR&HWC membership form.doc"
+              >Membership Form &raquo;</a
+            >
+          </p>
+        </div>
 
-      <div class="col-sm-12">
-        <h2 class="mt-4">Contact Us</h2>
-        <address>
-          <strong>Tom Clarke:</strong>
-          01600 228752
-          <br>
-        </address>
-        <address>
-          <strong>Mike Saunders:</strong>
-          01600 716255
-          <br>
-        </address>
+        <div class="col-sm-12 col-md-6 mt-4">
+          <div class="event">
+            Monmouth Rambling & Hillwalking Club are supporting the
+            <a href="https://walkthewye.com/">Rotary Club Walk the Wye</a>
+            event again this year, to help raise money for breast cancer
+            research at Velindre Hospital, Cardiff.
+          </div>
+          <div
+            class="fb-group"
+            data-href="https://www.facebook.com/groups/1827521370900504/"
+            data-show-social-context="true"
+            data-show-metadata="true"
+          ></div>
+        </div>
+
+        <div class="col-sm-12">
+          <h2 class="mt-4">Contact Us</h2>
+          <address>
+            <strong>Tom Clarke:</strong>
+            01600 228752
+            <br />
+          </address>
+          <address>
+            <strong>Mike Saunders:</strong>
+            01600 716255
+            <br />
+          </address>
+        </div>
       </div>
-    </div>
-    <!-- /.row -->
-  </section>
-  <!-- /.container -->
+      <!-- /.row -->
+    </section>
+    <!-- /.container -->
 
-  <section class="container" id="gallery">
-    <div class="row">
-      <div class="col-12">
-        <h2>Gallery</h2>
-        <div class="row justify-content-center">
-          <div class="col-md-10">
-            <div class="row">
-              <a href="/images/group-lake.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/group-lake.jpg" class="img-fluid">
-              </a>
-              <a href="/images/river.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/river.jpg" class="img-fluid">
-              </a>
-              <a href="/images/view.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/view.jpg" class="img-fluid">
-              </a>
-              <a href="/images/scene-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/scene-2.jpg" class="img-fluid">
-              </a>
-              <a href="/images/scene-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/scene-4.jpg" class="img-fluid">
-              </a>
-              <a href="/images/scene.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/scene.jpg" class="img-fluid">
-              </a>
-              <a href="/images/waterfall.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/waterfall.jpg" class="img-fluid ">
-              </a>
-              <a href="/images/group.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="mb-4 col-6 col-sm-4">
-                <img src="/images/thumbnails/group.jpg " class="img-fluid ">
-              </a>
+    <section class="container" id="gallery">
+      <div class="row">
+        <div class="col-12">
+          <h2>Gallery</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <div class="row">
+                <a
+                  href="/images/group-lake.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img
+                    src="/images/thumbnails/group-lake.jpg"
+                    class="img-fluid"
+                  />
+                </a>
+                <a
+                  href="/images/river.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img src="/images/thumbnails/river.jpg" class="img-fluid" />
+                </a>
+                <a
+                  href="/images/view.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img src="/images/thumbnails/view.jpg" class="img-fluid" />
+                </a>
+                <a
+                  href="/images/scene-2.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img src="/images/thumbnails/scene-2.jpg" class="img-fluid" />
+                </a>
+                <a
+                  href="/images/scene-4.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img src="/images/thumbnails/scene-4.jpg" class="img-fluid" />
+                </a>
+                <a
+                  href="/images/scene.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img src="/images/thumbnails/scene.jpg" class="img-fluid" />
+                </a>
+                <a
+                  href="/images/waterfall.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img
+                    src="/images/thumbnails/waterfall.jpg"
+                    class="img-fluid"
+                  />
+                </a>
+                <a
+                  href="/images/group.jpg"
+                  data-toggle="lightbox"
+                  data-gallery="example-gallery"
+                  class="mb-4 col-6 col-sm-4"
+                >
+                  <img src="/images/thumbnails/group.jpg " class="img-fluid" />
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- /.row -->
-  </section>
-  <!-- /.container -->
-
-
-  <section class="container " id="faq">
-    <div class="row ">
-      <div class="col-12 ">
-        <h2>FAQs</h2>
-        <h5 class="w-100 ">Can I try a walk?</h5>
-        <p>New members may try up to 3 walks before joining the club. Contact us for details of upcoming walks.</p>
-
-        <h5 class="w-100 ">Where can I meet for a walk?</h5>
-        <p>We meet every Sunday morning at Rockfield Road car park, opposite the Bridges Centre, in Monmouth and leave there around 9.30, exact departure
-          time depending on how far it is to the start of the walk.</p>
-
-        <h5 class="w-100 ">Do I need special equipment/gear?</h5>
-        <p>We strongly recommend you wear good walking boots and have a waterproof jacket and overtrousers. Some walkers
-          like to use walking poles to take the weight off their joints and assist with balance over rough terrain. In addition,
-          a rucksack for carrying food, water and any other items is required.</p>
-
-        <h5 class="w-100 ">Do I need to bring sandwiches and a drink?</h5>
-        <p>Yes. Our walks usually include a short coffee stop mid-morning and a picnic stop for lunch. If there is a convenient
-          pub or café at the end of a walk, members may wish to have a drink before going home.</p>
-
-        <h5 class="w-100 ">Can I share transport?</h5>
-        <p>We encourage our members to share lifts to minimise environmental impact. Passengers contribute towards travel
-          costs.
-        </p>
-
-        <h5 class="w-100 ">Can I bring a dog?</h5>
-        <p>Due to the likelihood that we will be walking among livestock, the Club does not allow dogs on walks.</p>
-
-        <h5 class="w-100 ">How do I join the club?</h5>
-        <p>Please complete a membership form and give it to a committee member on the next walk along with your subscription.</p>
-
-        <h5 class="w-100 ">What about insurance?</h5>
-        <p>Whilst the club has Public Liability insurance covering damage or injury that any member of the Club may cause
-          to a third party or property, the committee and walk leaders cannot accept responsibility for any loss or injury
-          suffered by anyone participating in our walks. Participation in our walks is entirely at the risk of the member
-          or guest.</p>
-
-        <h5 class="w-100 ">How far do you walk?</h5>
-        <p>Our walk programme includes walks varying in length from around 6 to 8 miles but once a month we include a longer
-          walk of 9-10 miles.</p>
-      </div>
-    </div>
-    <!-- /.row -->
-  </section>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark ">
-    <div class="container ">
-      <p class="m-0 text-center text-white ">Copyright &copy; Monmouth Rambling and Hillwalking Club 2018</p>
-    </div>
+      <!-- /.row -->
+    </section>
     <!-- /.container -->
-  </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js "></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+    <section class="container" id="faq">
+      <div class="row">
+        <div class="col-12">
+          <h2>FAQs</h2>
+          <h5 class="w-100">Can I try a walk?</h5>
+          <p>
+            New members may try up to 3 walks before joining the club. Contact
+            us for details of upcoming walks.
+          </p>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
+          <h5 class="w-100">Where can I meet for a walk?</h5>
+          <p>
+            We meet every Sunday morning at Rockfield Road car park, opposite
+            the Bridges Centre, in Monmouth and leave there around 9.30, exact
+            departure time depending on how far it is to the start of the walk.
+          </p>
 
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/scroll.js "></script>
-  <script src="vendor/lightbox/ekko-lightbox.min.js"></script>
-  <script>
-    $(document).ready(() => {
-      $(document).on('click', '[data-toggle="lightbox"]', function (event) {
-        event.preventDefault();
-        $(this).ekkoLightbox();
+          <h5 class="w-100">Do I need special equipment/gear?</h5>
+          <p>
+            We strongly recommend you wear good walking boots and have a
+            waterproof jacket and overtrousers. Some walkers like to use walking
+            poles to take the weight off their joints and assist with balance
+            over rough terrain. In addition, a rucksack for carrying food, water
+            and any other items is required.
+          </p>
+
+          <h5 class="w-100">Do I need to bring sandwiches and a drink?</h5>
+          <p>
+            Yes. Our walks usually include a short coffee stop mid-morning and a
+            picnic stop for lunch. If there is a convenient pub or café at the
+            end of a walk, members may wish to have a drink before going home.
+          </p>
+
+          <h5 class="w-100">Can I share transport?</h5>
+          <p>
+            We encourage our members to share lifts to minimise environmental
+            impact. Passengers contribute towards travel costs.
+          </p>
+
+          <h5 class="w-100">Can I bring a dog?</h5>
+          <p>
+            Due to the likelihood that we will be walking among livestock, the
+            Club does not allow dogs on walks.
+          </p>
+
+          <h5 class="w-100">How do I join the club?</h5>
+          <p>
+            Please complete a membership form and give it to a committee member
+            on the next walk along with your subscription.
+          </p>
+
+          <h5 class="w-100">What about insurance?</h5>
+          <p>
+            Whilst the club has Public Liability insurance covering damage or
+            injury that any member of the Club may cause to a third party or
+            property, the committee and walk leaders cannot accept
+            responsibility for any loss or injury suffered by anyone
+            participating in our walks. Participation in our walks is entirely
+            at the risk of the member or guest.
+          </p>
+
+          <h5 class="w-100">How far do you walk?</h5>
+          <p>
+            Our walk programme includes walks varying in length from around 6 to
+            8 miles but once a month we include a longer walk of 9-10 miles.
+          </p>
+        </div>
+      </div>
+      <!-- /.row -->
+    </section>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Monmouth Rambling and Hillwalking Club 2018
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scroll.js "></script>
+    <script src="vendor/lightbox/ekko-lightbox.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        $(document).on("click", '[data-toggle="lightbox"]', function (event) {
+          event.preventDefault();
+          $(this).ekkoLightbox();
+        });
       });
-    })
-
-  </script>
-
-</body>
-
+    </script>
+  </body>
 </html>

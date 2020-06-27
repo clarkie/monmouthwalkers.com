@@ -106,3 +106,15 @@ section {
 .fb-group {
   text-align: right;
 }
+
+.event {
+  margin-bottom: 10px;
+  border: 1px solid #a0372c;
+  padding: 10px;
+  background-color: #a0372c33;
+  border-radius: 10px;
+}
+
+.event a {
+  color: #a0372c;
+}
