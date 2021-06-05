@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Monmouth Rambling and Hillwalking Club`,
+    description: `Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside.`,
+    author: `@clarkie`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -22,7 +22,7 @@ module.exports = {
       options: {
         name: `Monmouth Rambling and Hillwalking Club`,
         short_name: `starter`,
-        start_url: `/`,
+        start_url: `https://monmouthwalkers.com`,
         theme_color: "#ffffff",
         background_color: "#ffffff",
         display: `minimal-ui`,

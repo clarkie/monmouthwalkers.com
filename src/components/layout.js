@@ -7,22 +7,12 @@
 
 import * as React from "react"
 import PropTypes from "prop-types"
-// import { useStaticQuery, graphql } from "gatsby"
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Menu } from "./menu"
 import "./main.css"
+import { SEO } from "./seo"
 
 const Layout = ({ children }) => {
-  // const data = useStaticQuery(graphql`
-  //   query SiteTitleQuery {
-  //     site {
-  //       siteMetadata {
-  //         title
-  //       }
-  //     }
-  //   }
-  // `)
-
   return (
     <html lang="en">
       <head>
@@ -34,85 +24,17 @@ const Layout = ({ children }) => {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag() {
-                dataLayer.push(arguments);
-              }
-              gtag("js", new Date());
-        
-              gtag("config", "UA-47073255-2");
-           `,
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            
+            gtag("config", "UA-47073255-2");
+            `,
           }}
         />
-
-        <meta charset="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta
-          name="description"
-          content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside."
-        />
-        <meta name="author" content="" />
-
-        <title>Monmouth Rambling and Hillwalking Club</title>
-
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/favicon/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/favicon/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="/favicon/safari-pinned-tab.svg"
-          color="#5bbad5"
-        />
-        <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
-
-        <meta
-          property="og:title"
-          content="Monmouth Rambling and Hillwalking Club"
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:description"
-          content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside."
-        />
-        <meta
-          property="og:image"
-          content="https://monmouthwalkers.com/images/pen-y-crug.jpg"
-        />
-        <meta property="og:url" content="https://monmouthwalkers.com/" />
-
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="https://monmouthwalkers.com/" />
-        <meta
-          name="twitter:title"
-          content="Monmouth Rambling and Hillwalking Club"
-        />
-        <meta
-          name="twitter:description"
-          content="Monmouth Rambling and Hillwalking Club is a long established walking club based in Monmouth. We walk every Sunday in our beautiful local countryside."
-        />
-        <meta
-          name="twitter:image"
-          content="https://monmouthwalkers.com/images/pen-y-crug.jpg"
-        />
+        <SEO />
 
         {/* <!-- Bootstrap core CSS --> */}
         <link
@@ -121,7 +43,6 @@ const Layout = ({ children }) => {
         />
         <link href="/vendor/lightbox/ekko-lightbox.css" rel="stylesheet" />
 
-        <div id="fb-root"></div>
         <script
           dangerouslySetInnerHTML={{
             __html: `
