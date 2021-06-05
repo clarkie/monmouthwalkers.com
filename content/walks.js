@@ -3,27 +3,41 @@ module.exports = () => [
     id: 1,
     title: "Monmouth to Wonastow and Lady Grove Wood",
     slug: "1-monmouth-to-wonastow-and-lady-grove-wood",
-    info: "4.5 miles long and a total climb of 450ft. Several Stiles",
+    info:
+      "4.7 miles long and a total climb of 450 ft. Several stiles. Allow 2.5 hours.",
     mapImage: "walk-1.png",
-    osLink:
-      "https://osmaps.ordnancesurvey.co.uk/route/7929689/Walk-1-Monmouth-to-Wonastow-and-Lady-Grove-Wood",
+    osLink: "",
     intro:
       "After leaving town the walk takes you through fields to Wonastow and then a gradual climb to Lady Grove Woods before returning to town. Views of all three of the Abergavenny mountains on a clear day.",
     content: [
       "From Agincourt Square, walk down Monnow Street  and cross over the old Monnow bridge. Cross over the main road into Goldwire Lane at the side of the Green Dragon.  At the end of Goldwire Lane cross the mediaeval bridge over Clawdd-Du (Black Dyke) and continue over Elstob Way and past the adult learning centre  and houses to reach Wonastow Road. Bear left, keeping a hedge and the main road on your right and houses on your left. Stay on Wonastow Road until you reach a stile on the left, immediately after the Tri-Wall factory. Crossing the stile you soon see a stile on the right. Over this stile and two more before passing to the right of Little Garth Farm. You come to another stile at the junction of two hedges . Cross here and bear right towards the hedge along the roadside. Follow this hedge and cross a driveway and more stiles passing Wonastow Lodge before reaching Wonastow Court. Go between the farm buildings and bear right to join a driveway. On your right is Wonastow Church. ",
       "As you walk along the driveway towards the war memorial, you’ll have splendid views of the Blorenge, Sugar Loaf and the Skirrid, the mountains surrounding Abergavenny.",
-      "Turn right at the main road and in 150 yards, turn left up a farm track. Bear right at the modern farm building and follow the track uphill for about 1/3rd of a mile to a gate. Through the gate and turning right takes you to Lady grove Wood. Follow the track through the wood until you reach a stile leading into a field. Bear right along the edge of this field to find two stiles on your right. Monmouth church spire now comes into view. Head for the spire through fields and over stiles until you come to the houses of Kingswood estate.  Crossing a stile into Acer Way, go straight ahead on tarmaced pedestrian paths until you reach a field. Cross the field to a gate and carry on until you arrive at an industrial estate. The path becomes Williams Field Lane and passes between high metal fences. Follow this to its end passing houses and a school before reaching  Wonastow Road. Turn left to reach a roundabout and turn right. After 150 yards, at the next roundabout turn left to the old bridge and follow Monnow St back to Agincourt Square.",
+      "Turn right at the main road and in 150 yards, turn left up a farm track. Bear right at the modern farm building and follow the track uphill for about 1/3rd of a mile to a gate. Through the gate and turning right takes you to Lady grove Wood. Follow the track through the wood until you reach a stile leading into a field. Bear right along the edge of this field to find two stiles on your right. Monmouth church spire now comes into view. Head for the spire through fields and over stiles until you come to the houses of Kingswood estate.  Crossing a stile into Acer Way, go straight ahead on tarmac pedestrian paths until you reach a field. ",
+      "Cross the field to a gate and carry on until you arrive at an industrial estate. The path becomes Williams Field Lane and passes between high metal fences. Follow this to an open area passing to the left of a children’s playground to a gap onto a tarmac path and turn right. Stay on Williams Field Lane passing houses and a school before reaching  Wonastow Road. Turn left to reach a roundabout and turn right. After 150 yards, at the next roundabout turn left to the old bridge and follow Monnow St back to Agincourt Square.",
     ],
+    gpxLink: "Walk 1 - Monmouth to Wonastow and Lady Grove Wood.gpx",
   },
   {
     id: 2,
     title: "Monmouth to Buckhold Wood and Manson",
     slug: "2-monmouth-to-buckhold-wood-and-manson",
-    info: "6.2 miles long and a total climb of 850ft.",
-    intro: "",
-    content: [],
+    info:
+      "6.2 miles long and a total climb of 850ft. Several stiles. Allow 3.5 hours",
+    intro:
+      "The walk takes you through ancient woodland in a once thriving centre of forestry industry. On the return leg you will enjoy views of Monmouth town, the Abergavenny mountains and the Monnow valley.",
+    content: [
+      "From Agincourt Square go up Castle Hill towards the castle. Take the first turning on the right and follow this lane down steps to Tibbs Bridge over the River Monnow. Cross the bridge into Vauxhall Fields and carry on to a crossroads of paths where you turn right and cross the Monnow again at Inglis Bridge. At the main road, Osbaston Road, turn left. Stay on this road for ½ mile passing Monnow Mill and a school on the left. ",
+      "Shortly after passing Lancaster Way, look out for a lane on the right (immediately after the driveway leading to Great Osbaston)with a sign to Manson Lane. Follow the lane to the left of the house and enter the field. Cross the field and bear right at the hedge. Keeping the hedge on your left head uphill ignoring a track on the left  eventually arriving at a tarmac road, Manson Lane. ",
+      "Turn right and take the first turn on the left, signposted Buckholt Wood (look carefully, the sign may be obscured by the hedge!). Where the concrete drive ends, take the footpath straight ahead  and continue uphill to a junction with main tracks. Turn left on the main track, ignoring a path immediately on the left and head uphill through the wood. Stay on the main track for ¾ mile, ignoring several paths off to the left and right. As you walk along this peaceful track enjoy the birdsong and watch out for deer grazing in the woods.",
+      "After a stile and gate turn left on the tarmac road (Manson Lane) and after 250 yards turn left back into the woods via a metal gate. Follow this path for ½ mile until it starts to descend and you seea path on the right which turns sharply back on itself and heading downhill. Follow the steep path with some steps to a stile at a fence at the edge of the woods. ",
+      "Crossing into the field, Monmouth comes into view on your left and, straight ahead lie the Abergavenny mountains, the Skirrid and the Blorenge.  Watch out for the buzzards that circle the woods and fields in this area. ",
+      "Heading downhill, follow the left hand hedge line at first and after 100 yards bear right toward the corner of the field, heading for the farm buildings just beyond. At the hedge cross a stile and footbridge onto Manson Lane.",
+      "Turn right and then left through a wooden gate just before Great Manson Hall. Follow the farm boundary hedge on your right and take either the gate or gap into the next field. Head for the woods over the brow of the hill and bear left to a gap in the fence and continue downhill to a gate in the corner of the  field. Beyond the gate, keeping to the edge of the field, bear right at the end of the wood, through a gap and turn left keeping the hedge on your left. Follow the hedge downhill until you reach a small stream. Cross the stream and follow the track uphill to a field and turn right along the field edge. After 100 yards follow the footpath as it bears left across the field and into a track down to the main road.",
+      "Turn left and then right through a gate. Follow the path between the hedge and the old vineyard  to a stile near the river. Follow the river past the hydroelectric power plant  to the a gate leading onto Forge Road. Continue along Forge Road to meet OsbastonRoad . Retracing the route back to the start, turn right passing Monnow Mill and turn right to cross Inglis Bridge into Vauxhall Fields. Turn left at the crossroads of paths and cross Tibbs Bridge. Follow the track up steps to Castle Hill. Turn left to reach Agincourt Square",
+    ],
     mapImage: null,
     osLink: null,
+    gpxLink: "Walk 2 Monmouth to Manson and Buckholt.gpx",
   },
   {
     id: 4,

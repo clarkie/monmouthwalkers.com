@@ -45,27 +45,46 @@ const WalksPage = ({ pageContext }) => {
           </Col>
           <Col sm={8} lg={9} className="align-self-center">
             <Container fluid className="">
-              <Row>
+              <p>
                 Monmouth Rambling &amp; Hillwalking Club first started walking
                 as a group in 1981. Since then our members have enjoyed walking
                 countless miles in and around the Monmouth area. We are lucky to
                 have some of the UK’s most beautiful and accessible countryside
                 on our doorstep.
-              </Row>
-              <Row className="mt-3">
+              </p>
+              <p>
                 From the town centre you can walk along the Wye Valley, climb
                 the Kymin or visit beautiful woodlands.
-              </Row>
-              <Row className="mt-3">
+              </p>
+              <p>
                 To enjoy some of our favourite walks, select from the list to
                 find a map and walk instructions.
-              </Row>
+              </p>
             </Container>
           </Col>
         </Row>
+
         {walks.map(walk => (
           <WalkListItem key={walk.id} {...walk} />
         ))}
+        <Row>
+          <p>
+            All these walks are within the area covered by Ordnance Survey
+            Explorer Map OL14 and it is strongly recommended that you take a
+            copy on your walk. We recommend you wear sturdy footwear and
+            appropriate clothing.
+          </p>
+          <p>
+            Always follow the Country Code:
+            <ul>
+              <li>Be safe – plan ahead and follow any signs</li>
+              <li>Leave gates and property as you find them</li>
+              <li>Protect plants and animals, and take your litter home</li>
+              <li>Keep dogs under control</li>
+              <li>Consider other people</li>
+            </ul>
+          </p>
+        </Row>
       </Container>
     </Layout>
   )
