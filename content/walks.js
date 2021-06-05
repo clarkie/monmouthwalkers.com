@@ -23,7 +23,7 @@ module.exports = () => [
     title: "Monmouth to Buckhold Wood and Manson",
     slug: "2-monmouth-to-buckhold-wood-and-manson",
     info:
-      "6.2 miles long and a total climb of 850ft. Several stiles. Allow 3.5 hours",
+      "6.2 miles long and a total climb of 850ft.  A number of stiles and can be muddy. Moderate. Allow 3.5 hours.",
     intro:
       "The walk takes you through ancient woodland in a once thriving centre of forestry industry. On the return leg you will enjoy views of Monmouth town, the Abergavenny mountains and the Monnow valley.",
     content: [
@@ -45,8 +45,9 @@ module.exports = () => [
     id: 3,
     title:
       "Monmouth to Wonastow, Jingle St along the Trothy Valley and Orles Wood",
-    slug: "3-",
-    info: "7.0 miles and a total climb of 820 ft. Allow 3.5 hours.",
+    slug:
+      "3-monmouth-to-wonastow-jingle-st-along-the-trothy-valley-and-orles-wood",
+    info: "7.0 miles and a total climb of 820 ft. Moderate. Allow 3.5 hours.",
     intro:
       "After leaving town the walk takes you through fields to Wonastow and then along quiet country lanes with views of the beautiful Trothey Valley before a walk through peaceful woodland.",
     content: [
@@ -97,7 +98,7 @@ module.exports = () => [
     slug:
       "5-wye-river-bank-iron-bridge-on-wye-troy-house-livox-woods-penallt-old-church-upper-redbrook",
     info:
-      "8.5 miles and a total climb of 1500 ft; some steep climbs and rough going. Allow 5 hours..",
+      "8.5 miles and a total climb of 1500 ft; Strenuous, some steep climbs and rough going. Allow 5 hours.",
     intro:
       "Commencing with a riverbank walk, this walk takes in several historic buildings including railway architecture, a Grade II listed 17th century mansion and a Grade I medieval church. En route there are views of the Wye Valley and Monmouth town.",
     content: [
@@ -120,7 +121,7 @@ module.exports = () => [
     title: "Monnow Bridge, Beech Road, Golf Club, Osbaston",
     slug: "6-monnow-bridge-beech-road-golf-club-osbaston",
     info:
-      "5.5 miles long with around 450 ft of ascent. Several stiles.  Allow 3 hours.",
+      "5.5 miles long with around 450 ft of ascent. Several stiles. Moderate. Allow 3 hours.",
     intro:
       "This walk crosses the River Wye twice – first on a disused railway bridge and, later, over the Grade II listed Wye Bridge. On the higher parts of the walk you’ll have views in all directions including the Abergavenny Mountains.",
     content: [
@@ -140,7 +141,7 @@ module.exports = () => [
       "River side walk to confluence of the Wye and the Monnow rivers and Chippenham Fields",
     slug:
       "7-river-side-walk-to-confluence-of-the-wye-and-the-monnow-rivers-and-chippenham-fields",
-    info: "Flat walk. Approx. 2.0 miles. No stiles. Allow 1 hour",
+    info: "Approx. 2.0 miles. No stiles. Easy, flat walk. Allow 1 hour.",
     intro:
       "This walk takes you along the River Monnow to its confluence with the River Wye.",
     content: [
@@ -158,7 +159,7 @@ module.exports = () => [
     id: 8,
     title: "Monmouth to the Kymin",
     slug: "8-monmouth-to-the-kymin",
-    info: "4 miles with 840 ft of ascent. Allow 2 hours",
+    info: "4 miles with 840 ft of ascent. Moderate. Allow 2 hours.",
     intro:
       "The Kymin is home to two interesting Georgian buildings and a host of wildlife. The steep climb up from Monmouth is rewarded with spectacular views of the Abergavenny mountains and, beyond them, the Brecon Beacons.",
     content: [
@@ -189,7 +190,7 @@ module.exports = () => [
     title: "Monmouth to Kingswood",
     slug: "10-monmouth-to-kingswood",
     info:
-      "Distance 7 miles and 880ft of ascent  (with shorter option of 6miles)",
+      "Distance 7 miles and 880ft of ascent (with shorter option of 6miles). Moderate. Allow 3.5-4 Hours.",
     intro:
       "This walk takes you along part of the Offa’s Dyke national footpath (ODP) up to Kingswood. There are views of distant mountains and possible sightings of Red Kites and Deer. There is the option of a slightly shorter 6 mile route.",
     content: [

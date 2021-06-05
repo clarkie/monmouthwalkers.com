@@ -4,6 +4,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import { Container, Row } from "react-bootstrap"
 import { WalkInfo } from "../components/walkInfo"
+import { SEO } from "../components/seo"
 
 const MapRow = styled(Row)`
   left: -20px;
@@ -47,15 +48,14 @@ const WalkPage = props => {
     osLink,
     gpxLink,
   } = pageContext
-  console.log("pageContext", pageContext)
+  const walkHeader = `Walk No. ${id} - ${title}`
 
   return (
     <Layout>
+      <SEO title={walkHeader} description={intro} />
       <Container className="mb-5">
         <Row className="mt-3">
-          <h2>
-            Walk No. {id} - {title}
-          </h2>
+          <h2>{walkHeader}</h2>
         </Row>
         <WalkInfo {...{ info }} />
         <Row className="my-3">{intro}</Row>
