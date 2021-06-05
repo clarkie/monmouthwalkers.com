@@ -1,5 +1,6 @@
 {
   "main.js": "render-page.js",
   "render-page.js.map": "render-page.js.map",
+  "static/badge-transparent.png": "static/badge-transparent-1092b18d12e43f651413ebaaecb7c806.png",
   "static/badge.png": "static/badge-d0295aed607df2338d094387551fb46d.png"
 }
