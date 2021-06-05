@@ -84,6 +84,24 @@ const WalksPage = ({ pageContext }) => {
               <li>Consider other people</li>
             </ul>
           </p>
+          <p>
+            We hope you enjoy your walk but please understand that all outdoor
+            activities involve a degree of risk and that you participate in
+            these walks at your own risk – Monmouth Rambling and Hillwalking
+            Club accepts no responsibility for any injuries to walkers following
+            these walks.
+          </p>
+          <p>
+            We have taken every care to ensure the directions given for the
+            walks are accurate but Monmouth Rambling &amp; Hillwalking Club
+            cannot accept responsibility for any errors or omissions. We would
+            be pleased to hear of any inaccuracies or changes to the routes by
+            email at{" "}
+            <a href="mailto:monmouthwalkers@gmail.com">
+              monmouthwalkers@gmail.com
+            </a>
+            .
+          </p>
         </Row>
       </Container>
     </Layout>
