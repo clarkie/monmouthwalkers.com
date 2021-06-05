@@ -62,7 +62,6 @@ const Layout = ({ children }) => {
       </head>
 
       <body id="top">
-        {/* <!-- Navigation --> */}
         <Menu />
 
         {children}

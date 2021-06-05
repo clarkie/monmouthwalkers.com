@@ -60,7 +60,8 @@ module.exports = () => [
       "Cross the field to a gate and carry on until you arrive at an industrial estate. The path becomes Williams Field Lane and passes between high metal fences. Follow this to an open area passing to the left of a children’s playground to a gap onto a tarmac path and turn right. Stay on Williams Field Lane passing houses and a school before reaching  Wonastow Road. Turn left to reach a roundabout and turn right. After 150 yards, at the next roundabout turn left to the old bridge and follow Monnow St back to Agincourt Square.",
     ],
     mapImage: "walk-3.png",
-    gpxLink: ".gpx",
+    gpxLink:
+      "Walk No 3 - Monmouth to Wonastow, Jingle St along the Trothy Valley and Orles Wood.gpx",
     osLink:
       "https://osmaps.ordnancesurvey.co.uk/route/8757094/Walk-No-3-Monmouth-to-Wonastow-Jingle-St-along-the-Trothy-Valley-and-Orles-Wood",
   },

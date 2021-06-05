@@ -11,7 +11,7 @@ export const Menu = () => {
       expand="lg"
     >
       <Container>
-        <Navbar.Brand href="#top">
+        <Navbar.Brand href="/#top">
           <img src="/images/welsh_dragon-simple.svg" alt="Welsh Dragon" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
