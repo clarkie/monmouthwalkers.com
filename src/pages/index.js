@@ -1,8 +1,11 @@
 import * as React from "react"
+import { Col, Row } from "react-bootstrap"
 
 import Layout from "../components/layout"
 
 import "./header.css"
+
+import badge from "../images/badge-transparent.png"
 
 const IndexPage = () => (
   <Layout>
@@ -63,12 +66,18 @@ const IndexPage = () => (
         </div>
 
         <div class="col-sm-12 col-md-6 mt-4">
-          <div class="event">
-            Monmouth Rambling & Hillwalking Club are supporting the{" "}
-            <a href="https://walkthewye.com/">Rotary Club Walk the Wye</a> event
-            again this year, to help raise money for breast cancer research at
-            Velindre Hospital, Cardiff.
-          </div>
+          <Row className="event">
+            <Col sm={4} lg={3}>
+              <img src={badge} alt="Monmouth Walkers badge" width="100%" />
+            </Col>
+            <Col>
+              <p>
+                Celebrate Our 40th Anniversary with us and enjoy a local walk.
+              </p>
+              <a href="/walks">See a list of some of our favourite walks</a>.
+            </Col>
+          </Row>
+
           <div
             class="fb-group"
             data-href="https://www.facebook.com/groups/1827521370900504/"
