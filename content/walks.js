@@ -85,7 +85,7 @@ module.exports = () => [
     ],
     mapImage: "walk-4.png",
     osLink:
-      "https://osmaps.ordnancesurvey.co.uk/route/8641616/Walk-4-Wye-river-bank-Upper-Redbrook-Knockalls-Buck-Stone-and-The-Kymin",
+      "https://osmaps.ordnancesurvey.co.uk/route/8757122/Walk-4-Wye-river-bank-Upper-Redbrook-Knockalls-Buck-Stone-and-The-Kymin",
     gpxLink:
       "Walk 4 - Wye river bank, Upper Redbrook, Knockalls, Buck Stone and The Kymin.gpx",
   },
@@ -110,7 +110,7 @@ module.exports = () => [
     ],
     mapImage: "walk-5.png",
     osLink:
-      "https://osmaps.ordnancesurvey.co.uk/route/8530046/GPX-Walk-5-Monmouth-to-Kingswood",
+      "https://osmaps.ordnancesurvey.co.uk/route/8757279/Walk-No-5-Wye-river-iron-bridge-Troy-House-Livox-Woods-Penallt-Old-Church-Upper-Redbrook",
     gpxLink:
       "Walk 5 - Wye river bank, iron bridge on Wye, Troy House, Livox Woods, Penallt Old Church,  Upper Red.gpx",
   },
@@ -130,7 +130,7 @@ module.exports = () => [
     ],
     mapImage: "walk-6.png",
     osLink:
-      "https://osmaps.ordnancesurvey.co.uk/route/8268852/Walk-6-Monnow-Bridge-Beech-Road-Golf-Club-Osbaston",
+      "https://osmaps.ordnancesurvey.co.uk/route/8757283/Walk-6-Monnow-Bridge-Beech-Road-Golf-Club-Osbaston",
     gpxLink: "Walk 6 Monnow Bridge, Beech Road, Golf Club &amp; Osbaston.gpx",
   },
   {
@@ -150,7 +150,7 @@ module.exports = () => [
     ],
     mapImage: "walk-7.png",
     osLink:
-      "https://osmaps.ordnancesurvey.co.uk/route/8642082/Walk-7-Riverside-Walk",
+      "https://osmaps.ordnancesurvey.co.uk/route/8757287/Walk-7-Riverside-Walk",
     gpxLink: "Walk 7 Riverside Walk.gpx",
   },
   {
@@ -170,7 +170,7 @@ module.exports = () => [
     ],
     mapImage: "walk-8.png",
     osLink:
-      "https://osmaps.ordnancesurvey.co.uk/route/8642130/Walk-8-The-Kymin",
+      "https://osmaps.ordnancesurvey.co.uk/route/8757291/Walk-8-The-Kymin",
     gpxLink: "Walk 8 The Kymin.gpx",
   },
   // {
@@ -212,7 +212,7 @@ module.exports = () => [
     ],
     mapImage: "walk-10.png",
     osLink:
-      "https://osmaps.ordnancesurvey.co.uk/route/8642216/Walk-10-Monmouth-to-Kingswood",
+      "https://osmaps.ordnancesurvey.co.uk/route/8757298/Walk-10-Monmouth-to-Kingswood",
     gpxLink: "Walk 10 Monmouth to Kingswood.gpx",
   },
 ]
