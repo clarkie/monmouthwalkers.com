@@ -65,7 +65,7 @@ const WalkPage = props => {
           </MapImage>
         </MapRow>
         <Row>
-          For digital version click on one of these - note you may need to
+          For a digital version click on one of these - note you may need to
           download one of the many free navigation apps (OS Maps, Strava,
           ViewRanger etc)
         </Row>
