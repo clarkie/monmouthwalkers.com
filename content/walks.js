@@ -175,16 +175,13 @@ module.exports = () => [
       "https://osmaps.ordnancesurvey.co.uk/route/8757291/Walk-8-The-Kymin",
     gpxLink: "Walk 8 The Kymin.gpx",
   },
-  // {
-  //   id: 9,
-  //   title: "Monmouth to the Kymin, Bilblins and back along the River Wye",
-  //   slug: "9-monmouth-to-the-kymin-bilblins-and-back-along-the-river-wye",
-  //   info: "This walk unavailable at present due to landslip on the banks of the River Wye.",
-  //   intro: "",
-  //   content: [],
-  //   mapImage: null,
-  //   osLink: null,
-  // },
+  {
+    id: 9,
+    title: "Monmouth to the Kymin, Bilblins and back along the River Wye",
+    slug: "9-monmouth-to-the-kymin-bilblins-and-back-along-the-river-wye",
+    warning:
+      "This walk is unavailable at present due to a landslip on the banks of the River Wye.",
+  },
   {
     id: 10,
     title: "Monmouth to Kingswood",

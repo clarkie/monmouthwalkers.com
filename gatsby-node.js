@@ -16,11 +16,13 @@ exports.createPages = ({ actions }) => {
 
   console.log({ walks })
   walks.forEach(walk => {
-    createPage({
-      path: `walks/${walk.slug}`,
-      component: require.resolve(`./src/templates/walk.js`),
-      context: walk,
-    })
+    if (!walk.warning) {
+      createPage({
+        path: `walks/${walk.slug}`,
+        component: require.resolve(`./src/templates/walk.js`),
+        context: walk,
+      })
+    }
   })
 
   createPage({
