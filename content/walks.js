@@ -20,8 +20,8 @@ module.exports = () => [
   },
   {
     id: 2,
-    title: "Monmouth to Buckhold Wood and Manson",
-    slug: "2-monmouth-to-buckhold-wood-and-manson",
+    title: "Monmouth to Buckholt Wood and Manson",
+    slug: "2-monmouth-to-buckholt-wood-and-manson",
     info:
       "6.2 miles long and a total climb of 850ft.  A number of stiles and can be muddy. Moderate. Allow 3.5 hours.",
     intro:
