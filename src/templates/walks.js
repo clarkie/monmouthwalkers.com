@@ -76,7 +76,8 @@ const WalksPage = ({ pageContext }) => {
             All these walks are within the area covered by Ordnance Survey
             Explorer Map OL14 and it is strongly recommended that you take a
             copy on your walk. We recommend you wear sturdy footwear and
-            appropriate clothing.
+            appropriate clothing. Time allowance is an approximation, please add
+            extra for stops for refreshment.
           </p>
           <p>
             Always follow the Country Code:
@@ -105,6 +106,11 @@ const WalksPage = ({ pageContext }) => {
               monmouthwalkers@gmail.com
             </a>
             .
+          </p>
+
+          <p>
+            We are grateful to Ordnance Survey for the use of their maps - Crown
+            copyright Ordnance Survey
           </p>
         </Row>
       </Container>
