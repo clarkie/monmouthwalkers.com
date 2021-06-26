@@ -78,9 +78,11 @@ const WalkPage = props => {
           </a>
         </Row>
         {content.map((contentItem, index) => (
-          <Row className="mt-3" key={index}>
-            {contentItem}
-          </Row>
+          <Row
+            className="mt-3"
+            key={index}
+            dangerouslySetInnerHTML={{ __html: contentItem }}
+          />
         ))}
       </Container>
     </Layout>
